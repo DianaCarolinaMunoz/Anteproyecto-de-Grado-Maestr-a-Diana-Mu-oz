@@ -1,0 +1,140 @@
+
+\documentclass[11pt,twoside]{thesis}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{graphics}
+\usepackage{placeins}
+\usepackage[table,xcdraw]{xcolor}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+
+
+
+%%%%%%%%%%%%%%%%
+% TITULO DEL PROYECTO 
+%%%%%%%%%%%%%%%% \'
+\titulo{\textbf{Software integrado a un dispositivo para expansi\'on pulmonar en pacientes con COVID-19}}
+                     
+                      
+%%%%%%%
+% AUTORES
+%%%%%%%
+\autorA{198759}{Diana Carolina Mu\~noz Hurtado}
+
+
+
+%%%%%%%
+% FECHA DE ENTREGA
+%%%%%%%
+
+\fecha{26 de noviembre de 2020}
+%%%%%%%%%%%%%%%%%
+
+% DIRECTOR DEL PROYECTO
+% DIRECTOR DE CARRERA
+%%%%%%%%%%%%%%%%%
+
+\directorproyecto{}{Juan Carlos Mart\'inez Arias}
+\directorcarrera{}{Mar\'ia Constanza Pab\'on}
+\codirectorcarrera{Dr.}{Jaime Aguilar}
+
+\include{format}
+\makeindex
+ 
+ 
+
+\begin{document}
+
+\maketitle
+\makecoverletter
+%\newpage
+
+%kk
+
+%%%%%%%%%%%%%%%%%%
+% ABSTRACT
+%%%%%%%%%%%%%%%%%%
+\chapter*{Resumen} \input{abstract}
+
+
+\chapter*{Abstract} \input{Abstract}
+
+%%%%%%%%%%%%%%%%%
+%%%% TABLE OF CONTENTS
+%%%% AND PREABLE
+%%%%%%%%%%%%%%%%%
+  
+  
+\tableofcontents 
+% \listoffigures   \listoftables   \mainmatter
+
+
+\dominitoc
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%
+% INTRODUCCION
+%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Introducci\'on}
+\input{introduccion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% DESCRIPCION DEL PROBLEMA
+%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Descripci\'on del Problema}
+\input{descripcion.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%
+% DESARROLLO DEL PROYECTO
+%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Desarrollo del Proyecto}
+\input{desarrollo.tex}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAFIA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{biblio.bib}
+\bibliographystyle{IEEEtran}
+\nocite{1}
+\nocite{2}
+\nocite{3}
+\nocite{4}
+\nocite{5}
+\nocite{6}
+\nocite{7}
+\nocite{8}
+\nocite{9}
+\nocite{10}
+\nocite{11}
+\nocite{12}
+\nocite{13}
+\nocite{14}
+\nocite{16}
+\nocite{17}
+\nocite{18}
+\nocite{19}
+\nocite{20}
+\nocite{21}
+\nocite{22}
+\nocite{23}
+\nocite{25}
+\nocite{26}
+\nocite{27}
+\nocite{28}
+\nocite{29}
+
+%%%%%%%%%%%%%%%%
+% GENERAL INDEX
+%%%%%%%%%%%%%%%%
+%\printindex
+
+\end{document}
+%\endinput

@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%%%%
+% DESCRIPCION DEL PROBLEMA
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Planteamiento del Problema}
+
+La telemedicina est\'a en etapas tempranas en Colombia y Latinoam\'erica. Seg\'un el panorama en Colombia, el numero de sedes y servicios habilitados por cada una de las especialidades bajo esta modalidad evidencia que menos del 1\% de las consultas m\'edicas son realizadas de manera remota \cite{1}. La regulaci\'on de la telemedicina en Colombia pone en pr\'actica  una serie de definiciones y disposiciones sobre su implementaci\'on que van de la mano con las tecnolog\'ias de la informaci\'on y telecomunicaciones, teniendo principalmente finalidades diagn\'osticas, terap\'euticas y educativas\cite{2}.
+
+Con el desencadenamiento de la pandemia del COVID-19 en marzo de 2020 y la aceptaci\'on de la telemedicina como principal alternativa para dar apoyo en los centros de salud, se iniciaron investigaciones y construcci\'on de proyectos que ayudar\'ian a disminuir tanto la propagaci\'on del virus como el soporte a la alta demanda de consultas presenciales a los que el pa\'is esta afrontado, con ello permitir, que m\'as personas tengan acceso a los servicios de salud. La infecci\'on de COVID-19 trae consigo dificultad respiratoria aguda y por ende la necesidad de que un paciente infectado requiera terapia de re-expansi\'on pulmonar. %[1][2].
+
+El covid-19 tiene una alta tasa de infecci\'on que est\'a asociada con el desencadenamiento del s\'indrome de dificultad respiratoria aguda el cual est\'a definido por un inicio agudo de edema pulmonar no cardiog\'enico, hipoxemia y la necesidad de ventilaci\'on mec\'anica\cite{8}. Aproximadamente el 30\% de las personas que superan el covid-19 quedan con insuficiencia de capacidad pulmonar que requiere terapia de re-expansi\'on pulmonar\cite{9}.  Los procedimientos actuales para la realizaci\'on de la terapia requieren del acompa\~{n}amiento de un terapeuta respiratorio y la evaluaci\'on del progreso del paciente de manera cualitativa a partir del desempe\~{n}o en la terapia local. 
+
+Para intervenir en la disminuci\'on de la capacidad pulmonar, los terapeutas respiratorios disponen de t\'ecnicas de re-expansi\'on pulmonar, las cuales incluyen entre otras el uso de un sistema respiratorio inspir\'ometro, el cual es uno de los recursos instrumentales m\'as usados en estos procedimientos. Un incentivo respiratorio inspir\'ometro  es un sistema que permite determinar el flujo o el volumen de aire inspirado y brinda informaci\'on al paciente sobre su magnitud. \cite{10}\cite{11} 
+
+Para el tratamiento se requiere tambi\'en del aislamiento del paciente y tambi\'en del cuidado del personal de salud, sin dejar de atender al paciente para su recuperaci\'on. Esta parad\'ojica situaci\'on lleva a la necesidad de dise\~{n}ar un producto que pueda ser manejado de manera aut\'onoma por el paciente y que permita la comunicaci\'on remota con el terapeuta respiratorio. 
+
+
+
+En la Pontificia Universidad Javeriana Cali se realizar\'a un proyecto que tendr\'a en cuenta principalmente los tratamientos que necesita una persona infectada por COVID-19, dichos tratamientos van dirigidos por un terapeuta quien eval\'ua la actividad respiratoria de un paciente de manera remota, este proyecto tiene como resultado final la integraci\'on de un sistema software y hardware \cite{3}, este sistema, se trata de un dispositivo electr\'onico para validar la actividad respiratoria de un paciente, espec\'ificamente un inspir\'ometro incentivo, conocido como un instrumento que mide la profundidad en la que un paciente puede inhalar. Por lo tanto, nace la necesidad de dise\~{n}ar un producto software para ser integrado con este dispositivo electr\'onico que permita validar los datos que registre el paciente durante una terapia y as\'i poder prestar los servicios de salud requeridos, con esta integraci\'on, el dispositivo debe permitir que se pueda manejar de manera aut\'onoma por una persona que necesite estar en aislamiento y que requiera mantener una constante comunicaci\'on con el personal de salud.
+
+%El software debe estar en linea con el dispositivo respirador %funcionalidad el software
+En este sentido, se requiere que el software se mantenga en l\'inea con el dispositivo para que el paciente y el especialista de la terapia respiratoria pueda observar, validar y controlar el proceso que esta realizando con el dispositivo mientras realiza la terapia adecuadamente. Con el inspir\'ometro el procedimiento inicial que debe realizar el  paciente es exhalar e inhalar por las boquillas respectivas hasta que una de las piezas suba hasta un punto indicado de la boquilla mientras la persona inhala, este procedimiento se debe reflejar en el software y para ello, se debe capturar la informaci\'on correspondiente y en tiempo real evidenciar los datos mediante una representaci\'on gr\'afica. Inicialmente se propone que el software use la t\'ecnica de gamificaci\'on en una aplicaci\'on lo cual se encargar\'a de incentivar al paciente a realizar el procedimiento indicado, con ello permitiendo que aumenten las posibilidades de mejora de su tratamiento. 
+
+
+
+
+\subsection{Formulaci\'on}
+
+?`C\'omo apoyar a un paciente para realizar una terapia respiratoria efectiva de manera remota mediante un sistema de monitoreo que implementa una aplicaci\'on con gamificaci\'on ?
+
+\subsection{Sistematizaci\'on}
+
+\begin{itemize}
+
+\item ?`C\'omo registrar los datos que necesita un profesional de la salud mientras realiza una terapia indicada para hacer las respectivas recomendaciones?
+
+\item ?`C\'omo ajustar un software de monitoreo para mejorar un tratamiento respiratorio? 
+
+\item ?`C\'omo incentivar a un paciente a realizar un tratamiento o actividad de manera eficiente sin acompa\~{n}amiento de un profesional? 
+
+\end{itemize}
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Desarrollar un prototipo software integrado a un dispositivo electr\'onico inspir\'ometro remoto que permita programar actividades de terapia respiratoria y registrar datos por parte de los pacientes mediante las mismas actividades que se requieren por el profesional de salud.
+
+\subsection{Objetivos Espec\'ificos}
+
+\begin{itemize}
+\item Explorar la literatura sobre las pr\'acticas de software relacionadas con un inspir\'omentro y la informaci\'on que se transmite desde el dispositivo, reconocer la etapas de funcionamiento del sistema a desarrollar para llevar a cabo una terapia respiratoria de  re-expansi\'on pulmonar.
+
+\item Definir los requerimientos del sistema mediante la teor\'ia de soluci\'on de problemas inventivos metodolog\'ia TRIZ y la tecnologia de gamificaci\'on, as\'i como las t\'ecnicas de trabajo e integraci\'on de datos para el sistema software.
+
+\item Dise\~{n}ar e implementar un sistema software que se integre con un dispositivo electr\'onico que permita adaptarse al proceso de respiraci\'on de un paciente y que incorpore terapias de re-expansi\'on pulmonar para la recuperaci\'on y mantenimiento de vol\'umenes y capacidades pulmonares.
+
+\item Validar el funcionamiento del software utilizando datos simulados de un paciente con COVID-19 utilizando el inspir\'ometro electr\'onico 
+
+\end{itemize}
+
+%\textbf{CORREGIR OBJETIVOS}
+
+\section{Justificaci\'on}
+
+Tras el desencadenamiento del covid-19 como pandemia y el distanciamiento social obligatorio, se redujo significativamente el acceso a los servicios de rehabilitaci\'on. Por tal raz\'on, el sector de salud en Colombia ha buscado asignar y validar tratamientos efectivos de manera remota con la telemedicina, para la cual hace uso de las tecnolog\'ias al programar citas virtuales, atenciones mediante videollamadas, chatbots entre otras soluciones que han complementado el servicio que brinda un terapeuta, adem\'as de brindar informaci\'on indicada para personal que lo requiera, con ello, se  ha evidenciado tambi\'en que las tecnolog\'ias permiten ampliar cobertura de los servicios de salud y disminuir tanto la desigualdad en el acceso a esos servicios como en los costos \cite{7}.
+
+%REVISAR
+Por lo anterior, es necesario contar con un producto de apoyo que permita trazar un avance a los servicios que se est\'an brindando en telemedicina y a que su vez pueda cubrir las nuevas necesidades de acceso remoto que han surgido con la utilizaci\'on de tecnolog\'ias de la informaci\'on en el sector de salud. Con la ejecuci\'on de este proyecto se podr\'an evaluar y aplicar procedimientos de terapias respiratorias mediante monitorizaci\'on de usuarios a distancia y realizar con ello el registro de datos que permitir\'an valorar su estado de salud, adem\'as se pretende incentivar al paciente, al  implementar una terapia a trav\'es de estrategias de juego lo cual ayudan en la disposici\'on y atenci\'on. 
+
+%Varios estudios reportan el uso de recursos de apoyo a la terapia respiratoria con el uso de juegos y realidad virtual para mejorar la adherencia al tratamiento
+
+%asociadas con dicha terapia. Se propone usar la t\'ecnica de gamificaci\'on lo cual permite que el personal m\'edico asigne terapias con metodolog\'ias particulares l\'udicas lo que favorecen la disposici\'on y atenci\'on del paciente. Varios estudios reportan el uso de recursos de apoyo a la terapia respiratoria con el uso de juegos y realidad virtual para mejorar la adherencia al tratamiento
+
+%Por lo anterior se plantea dise\~{n}ar e implementar un producto de apoyo que de soluci\'on a la necesidad relacionada con la rehabilitaci\'on pulmonar post COVID-19, para ello se hace el an\'alisis respectivo de los requerimientos iniciales que necesita este producto utilizando una metodolog\'ia llamada, teor\'ia de soluci\'on de problemas inventivos TRIZ, la cual nos permite ampliar el an\'alisis a trav\'es de un trabajo interdiciplinar y es \'util para el dise\~{n}o de nuevos productos, visto como un abanico de \'areas incluido el campo de la salud, de esa manera para la determinaci\'on de dichos requerimientos se designa un conjunto de pasos dentro de la t\'ecnica TRIZ que se plantean de la siguiente manera \cite{3}. Primero se identifica el contexto de una necesidad, luego se describe cual es el problema que se va abordar a partir de la definici\'on de las necesidades planteadas por los usuarios, despu\'es se hace la descripci\'on de un sistema t\'ecnico compuesto por elementos que en conjunto llevan a cabo una funci\'on principal, y luego se utiliza una t\'ecnica de nueve ventanas de TRIZ que nos permite analizar el problema en un contexto m\'as amplio con el fin de identificar diversas ideas para determinar los requerimientos, con la ayuda de fuentes primarias y secundarias se determina cuales serian los atributos ideales que deber\'ia tener el sistema t\'ecnico en el futuro, en esta fase se hace crucial la participaci\'on del usuario, por ultim\'o se analiza por que lo que se plantea como ideal en el futuro no puede ser llevado a cabo con el sistema actual, de esta manera se genera una contradicci\'on, lo cual surge al pretender mejorar algo con una soluci\'on preliminar pero se desmejora otro atributo. Con ello, la teor\'ia TRIZ permite encontrar soluci\'on a las contradicciones lo cual permite determinar los requerimientos del sistema a implementar. \cite{3}
+
+%Se requiere que el producto incentive al paciente a la realizaci\'on de la terapia para un registro de datos efectivo que puedan ser evaluados por el profesional, este incentivo se puede implementar a trav\'es de estrategias de juego asociadas con dicha terapia. Se propone usar la t\'ecnica de gamificaci\'on lo cual permite que el personal m\'edico asigne terapias con metodolog\'ias particulares l\'udicas lo que favorecen la disposici\'on y atenci\'on del paciente. Varios estudios reportan el uso de recursos de apoyo a la terapia respiratoria con el uso de juegos y realidad virtual para mejorar la adherencia al tratamiento \cite{13} 
+
+
+Con el dise\~{n}o y construcci\'on de este producto se favorecer\'a la recuperaci\'on funcional de los pacientes con secuelas pulmonares por COVID-19 y se podr\'an disminuir los tiempos de recuperaci\'on en los entornos hospitalarios con lo cual se facilitar\'a la integraci\'on temprana de la persona a sus actividades cotidianas. De igual manera, se espera que se disminuyan los costos en las entidades hospitalarias al poder realizar una atenci\'on remota y se reduce el riesgo de contagio de otras patolog\'ias de los pacientes como las del cuidado del personal de la salud.
+
+
+
+
+
+\section{Alcances y limitaciones}
+
+\subsection{Alcance} %%REVISAR
+
+Prototipo software que se encargar\'a de impartir las instrucciones al paciente para la realizaci\'on de su terapia respiratoria, al tiempo que controlar\'a el hardware del inspir\'ometro electr\'onico, este dispositivo permitir\'a registrar datos durante una terapia utilizando tecnolog\'ias de gamificaci\'on para brindar soluciones de acompa\~{n}amiento remoto. 
+%para su desarrollo se aplicaran metodolog\'ias TRIZ, para la definici\'on de requerimientos.
+
+%En este proyecto se desarrollar\'a la integraci\'on de un sistema software con un dispositivo electr\'onico inspir\'ometro como incentivo respiratorio,
+
+
+
+\subsection{Limitaciones}
+
+\begin{itemize}
+
+\item El funcionamiento del sistema se validar\'a a partir de datos simulados ideales de un paciente con covid-19.
+
+\end{itemize}
+
+\subsection{Entregables}
+
+\begin{itemize}
+
+\item Modelo de sistema de software.
+
+\item Prototipo software integrado para terapias respiratorias de inspir\'ometro
+
+\item Documento con an\'alisis de resultados de simulaciones de software integrado con un inspir\'ometro electr\'onico.
+
+\item Art\'iculo con fines de publicaci\'on en evento de difusi\'on acad\'emica.
+
+\end{itemize}
+
+
